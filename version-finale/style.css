@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@400;700&display=swap');
+
+html {
+  font-family: Merriweather, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-image: url(https://d3jf2jipiivcgq.cloudfront.net/1dc9fcbfccef85bb4943e006663a3ed15517c376.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding: 2vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-size: min(6vmin, 2.5rem);
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  column-gap: min(6vmin, 3rem);
+  row-gap: min(4vmin, 2rem);
+  margin: 0 auto;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+ul li.propos-competence {
+  width: min(max(25vmax, 36vmin), 20rem);
+  height: min(max(25vmax, 36vmin), 20rem);
+  font-size: min(max(3vmax, 4vmin), 2rem);
+}
+
+ul li.propos-competence a img {
+  max-height: 100%;
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  filter: contrast(50%);
+  transition: 0.25s ease-in-out all;
+}
+
+ul li.propos-competence a {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  transition: 0.25s ease-in-out all;
+}
+ul li.propos-competence a p {
+  z-index: 1;
+
+  background-color: hsla(208, 100%, 97%, 0.7);
+  color: hsl(247, 82%, 36%);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+ul li.propos-competence a:hover {
+  transform: translateY(-0.25rem);
+}
+ul li.propos-competence a:hover img {
+  filter: contrast(80%);
+}
+ul li.propos-competence a:hover p {
+  color: hsl(137, 52%, 24%);
+}
