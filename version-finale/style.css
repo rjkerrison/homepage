@@ -87,7 +87,17 @@ ul li.propos-competence a p {
 }
 ul li.propos-competence a:hover {
   transform: translateY(-0.25rem);
+  /* animation: spin 1 1s cubic-bezier(0.075, 0.62, 0.165, 1); */
 }
+@keyframes spin {
+  from {
+    transform: translateY(0) rotate(0);
+  }
+  to {
+    transform: translateY(-0.25rem) rotate(2turn);
+  }
+}
+
 ul li.propos-competence a:hover img {
   filter: contrast(80%);
 }
