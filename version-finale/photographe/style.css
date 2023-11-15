@@ -1,0 +1,37 @@
+@font-face {
+  font-family: europa;
+  src: url('https://use.typekit.net/af/821a05/00000000000000007735a082/30/l?subset_id=2&fvd=n3&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/821a05/00000000000000007735a082/30/d?subset_id=2&fvd=n3&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/821a05/00000000000000007735a082/30/a?subset_id=2&fvd=n3&v=3')
+      format('opentype');
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: alternate-gothic-no-3-d;
+  src: url('https://use.typekit.net/af/e019e3/000000000000000077359df9/30/l?subset_id=2&fvd=n4&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/e019e3/000000000000000077359df9/30/d?subset_id=2&fvd=n4&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/e019e3/000000000000000077359df9/30/a?subset_id=2&fvd=n4&v=3')
+      format('opentype');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: auto;
+}
+
+html {
+  font-family: europa, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}

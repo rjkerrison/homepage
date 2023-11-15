@@ -4,6 +4,8 @@ Aujourd'hui, on apprend les basiques pour créer des pages web artisanaux,
 fait maison, à la main.
 Ça a l'air délicieux, non ?
 
+[Ressources additionelles](./ressources-additionelles.html), un liste des exemples sur CodePen.
+
 ## Agenda du jour
 
 - [Ironhack WeCode : Construisez votre accueil web](#ironhack-wecode--construisez-votre-accueil-web)
