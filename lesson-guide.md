@@ -58,6 +58,8 @@ Replit / Codepen
 
 Guides sur CodePen
 
+- [`color` sur MDN](https://developer.mozilla.org/fr/docs/Web/CSS/color)
+
 ### 8. _Exercice:_ on fait de la recherche pour se familiariser avec CSS
 
 On va naviguer sur MDN.
