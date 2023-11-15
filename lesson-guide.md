@@ -4,11 +4,18 @@ Aujourd'hui, on apprend les basiques pour créer des pages web artisanaux,
 fait maison, à la main.
 Ça a l'air délicieux, non ?
 
+## Le but
+
+1. Vous allez voir ce qui est possible
+2. Vous aurez partir aujourd'hui avec quelque chose qui vous sert bien
+3. Deux ou trois entre vous s'inscrivent à un cours chez Ironhack
+
 [Ressources additionelles](./ressources-additionelles.html), un liste des exemples sur CodePen.
 
 ## Agenda du jour
 
 - [Ironhack WeCode : Construisez votre accueil web](#ironhack-wecode--construisez-votre-accueil-web)
+  - [Le but](#le-but)
   - [Agenda du jour](#agenda-du-jour)
     - [1. Dites bonjour](#1-dites-bonjour)
     - [2. Je présente ce qu'on tente de créer aujourd'hui](#2-je-présente-ce-quon-tente-de-créer-aujourdhui)
@@ -29,7 +36,7 @@ On se parle un peu, et puis on se présente avec l'aide de slido.
 
 ### 2. Je présente ce qu'on tente de créer aujourd'hui
 
-[My creation!](./version-finale/)
+[Un homepage pour moi, Robin James Kerrison!](./version-finale/)
 
 ### 3. l'histoire breve du web: comment on arrive d'avoir trois langues
 
