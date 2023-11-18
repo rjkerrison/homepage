@@ -2,6 +2,8 @@
 
 Se reposent ici les fichiers HTML, CSS, et JavaScript qui comprend mon exemple d'un site du web personnel.
 
+[Mon homepage, version finale!](./version-finale/)
+
 ## Comment commencer à créer le votre ?
 
 Tout d'abord, il faut comprendre les idées basiques du HTML.
